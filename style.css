@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(198,0,255);
+   font-family: "Dancing Script", system-ui;
+  serif;
+  color:white;
+  font-size:30px
+}
+
+input [type="checkbox"]{
+    transform: scale(2);
+    margin-right:30px;
+}
+
+input[type="text"]{
+  font-size:30px;
+  width:230px;
+  border-radius:200px;
+  border:solid 4px white;
+}
+.hidden{
+  display:none;
+}
+
+.botao{
+  background-color:rgb(198,120,233);
+   font-family: "Dancing Script", system-ui;
+  color:white;
+  border:solid 2px rgb(198,120,233);
+  border-radius:200px;
+  font-size: 25px;
+}
+
+.botao:hover{
+  background-color:#EB7DA3;
+  border: solid 2px violet;
+}
